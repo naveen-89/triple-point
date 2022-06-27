@@ -1,5 +1,8 @@
 {
     "name": "triple-point",
-    "version": "1.0.0"
+    "version": "1.0.0",
+    "scripts": {
+        "heroku-postbuild": "cd client && npm install --only=dev && npm install && npm run build"
+    }
 }
   
